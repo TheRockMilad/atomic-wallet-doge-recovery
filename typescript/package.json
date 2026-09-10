@@ -1,0 +1,20 @@
+{
+  "name": "atomic-doge-recovery-ts",
+  "version": "1.0.0",
+  "description": "High-performance offline recovery tool for Dogecoin in Atomic Wallet",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "bip32": "^4.0.0",
+    "bip39": "^3.1.0",
+    "bitcoinjs-lib": "^6.1.5",
+    "tiny-secp256k1": "^2.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
